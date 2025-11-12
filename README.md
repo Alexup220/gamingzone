@@ -6,7 +6,7 @@ Una empresa especialitzada en serveis informàtics ha rebut l’encàrrec de mun
 
 L’objectiu és crear un espai professional i competitiu que garanteixi el màxim rendiment per als jugadors i una experiència de qualitat per al públic assistent.
 
-Actualment, l’espai físic ja està construït i disposa del cablejat estructurat necessari, però no compta amb cap infraestructura informàtica. Per tant, cal dissenyar i implementar tot el sistema tècnic: equips informàtics, pantalles, sistemes de so, servidors locals i connexions a internet d’alta velocitat. A més, s’ha d’assegurar la seguretat de la xarxa i el bon funcionament dels sistemes durant tot el torneig.
+Actualment, l’espai físic ja està construït, però no compta amb cap infraestructura informàtica. Per tant, cal dissenyar i implementar tot el sistema tècnic: equips informàtics, pantalles, sistemes de so, servidors locals i connexions a internet d’alta velocitat. A més, s’ha d’assegurar la seguretat de la xarxa i el bon funcionament dels sistemes durant tot el torneig.
 
 Objectiu general
 
@@ -29,6 +29,8 @@ Inclou:
 La configuració de la xarxa local (LAN) i la xarxa Wi-Fi per al personal de l’esdeveniment.
 
 La configuració dels equips de competició i altres dispositius auxiliars.
+
+La preparació del cablejat per a les necessitats del torneig.
 
 La instal·lació dels sistemes audiovisuals destinats al públic i a la retransmissió.
 
