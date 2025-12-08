@@ -43,3 +43,13 @@ La gestió del contingut audiovisual o la producció professional de l’streami
 La contractació de personal extern o la decoració de l’espai.
 
 La gestió logística de l’esdeveniment (públic, inscripcions o màrqueting).
+
+Fases del projecte
+
+Infraestructura
+
+En aquesta primera fase del projecte s’ha de transformar un espai que actualment no disposa de cap infraestructura informàtica en un entorn preparat per suportar equips de competició i sistemes de comunicació moderna. Es defineix les zones destinades als jugadors, al públic i al personal tècnic. Paral·lelament, s’estableix tota la infraestructura: s’instal·la el cablejat estructurat necessari, es despleguen switches i punts d’accés per constituir una xarxa LAN estable i de baixa latència, i es defineixen les connexions a internet d’alta velocitat requerides per un torneig professional. Durant aquesta fase també es preparen les posicions de competició, configurant equips, pantalles i perifèrics, i es realitza la instal·lació dels sistemes audiovisuals principals que permeten la visualització de les partides a l’estadi. A més, es comencen a implementar mesures bàsiques de seguretat tant de la xarxa com de l’espai físic per garantir el correcte funcionament dels sistemes.
+
+Implementació
+
+La segona fase del projecte se centra a portar l’estadi a un nivell professional. S’implementen serveis de xarxa avançats amb servidors que gestionen usuaris, permisos i fitxers, i sistemes de monitoratge per controlar equips i connexions durant el torneig. També s’aplica un pla de seguretat informàtica amb polítiques d’accés, segments de xarxa i protocols d’actuació davant incidències. Paral·lelament, s’acaben d’integrar els sistemes audiovisuals per garantir una retransmissió estable i de qualitat.
