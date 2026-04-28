@@ -20,10 +20,12 @@ La segona fase del projecte se centra a portar l’estadi a un nivell profession
 <br><br>
 ## **Abast del projecte**
 ### Inclou:
-1.  La configuració de la xarxa local (LAN) i la xarxa Wi-Fi per al personal de l’esdeveniment.
-2.  La configuració dels equips de competició i altres dispositius auxiliars.
-3.  La configuració dels sistemes audiovisuals destinats al públic i a la retransmissió.
-4.  El disseny d’un pla de seguretat informàtica que asseguri el correcte manteniment de la xarxa i dels sistemes.
+1.  La configuració de la xarxa local (LAN).
+2.  La configuració dels equips dels tècnics.
+3.  La configuració dels equips de competició i altres dispositius auxiliars.
+4.  La configuració dels sistemes audiovisuals destinats al públic i a la retransmissió.
+5.  Configuració d'un sistema de monitoratge de xarxa.
+7.  El disseny d’un pla de seguretat informàtica que asseguri el correcte manteniment de la xarxa i dels sistemes.
 ### No inclou:
 1.  La gestió del contingut audiovisual o la producció professional de l’streaming.
 2.  La contractació de personal extern o la decoració de l’espai.
