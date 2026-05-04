@@ -1,6 +1,6 @@
 # **Alex Urra i Darek Valencia    2SMXB**
 ## **Context i situació inicial**
-Una empresa especialitzada en serveis informàtics ha rebut l’encàrrec de muntar tota la infraestructura tècnica d’un estadi destinat a un torneig del videojoc FIFA, amb la possibilitat d’ampliar el projecte en el futur per acollir altres jocs com Valorant, Counter-Strike 2 o Rocket League.
+Una empresa especialitzada en serveis informàtics ha rebut l’encàrrec de muntar tota la infraestructura tècnica d’un estadi destinat a fer tornejos de videojocs com Valorant, Counter-Strike 2 o Rocket League.
 L’objectiu és crear un espai professional i competitiu que garanteixi el màxim rendiment per als jugadors i una experiència de qualitat per al públic assistent.
 Actualment, l’espai físic ja està construït, però no compta amb cap infraestructura informàtica. Per tant, cal dissenyar i implementar tot el sistema tècnic: equips informàtics, pantalles, sistemes de so, servidors locals i connexions a internet d’alta velocitat. A més, s’ha d’assegurar la seguretat de la xarxa i el bon funcionament dels sistemes durant tot el torneig.
 <br><br>
