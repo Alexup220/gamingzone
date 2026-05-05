@@ -35,27 +35,27 @@ La segona fase del projecte se centra a portar l’estadi a un nivell profession
 #### MP01 – Equips informàtics
 Muntatge i configuració dels equips de joc, pantalles i perifèrics, així com el manteniment del hardware durant el torneig.
 #### MP02 – Sistemes operatius monolloc
-Instal·lació i optimització del sistema operatiu dels PCs de competició, configuració de drivers i programari necessari.
+Instal·lació del sistema operatiu dels PCs de competició, i programari necessari.
 #### MP03 – Ofimàtica
-Creació de documentació del projecte: pressupost, inventari, plànols, planificació i presentació final.
+Creació de documentació del projecte: pressupost, plànols, planificació i presentació final.
 #### MP04 – Sistemes operatius en xarxa (SOX)
 Configuració de servidors locals, gestió centralitzada d’usuaris, permisos i recursos per al torneig.
 #### MP05 – Xarxes d’àrea local
-Disseny i desplegament de la xarxa LAN del torneig, cablejat, configuració de switches i validació del rendiment.
+Disseny i desplegament de la xarxa LAN del torneig.
 #### MP06 – Seguretat informàtica
-Protecció de la xarxa i dels sistemes del torneig mitjançant firewalls, polítiques d’accés i mesures contra possibles atacs.
+Protecció de la xarxa i dels sistemes del torneig mitjançant sistemes de seguretat física com sistemes biomètrics, càmeres de seguretat, etc...
 #### MP07 – Serveis de xarxa
-Configuració de serveis essencials com DHCP, DNS, o servidors interns necessaris per al bon funcionament de la infraestructura.
+Configuració de serveis com MariaDB, Apache, o servidors interns necessaris per al bon funcionament de la infraestructura.
 #### MP08 – Aplicacions web
-Creació o manteniment d’una web informativa del torneig (horaris, resultats, normes) o d'un portal intern per al personal.
+Creació o d’una web informativa del torneig (horaris, resultats).
 #### MP11 – Anglès
-Lectura i comprensió de manuals, documentació tècnica i eines relacionades amb hardware, xarxes i eSports.
+Realització d'un "abstract".
 #### Digitalització aplicada als Sectors Productius
 Aplicació de solucions digitals per transformar l’estadi en un espai tecnològic complet i funcional.
 #### Sostenibilitat aplicada al Sistema Productiu
 Aplicació d’estratègies de sostenibilitat: consum energètic responsable, reutilització de cablejat i optimització de recursos.
-#### Itinerari Personal per a l’Ocupabilitat I
+#### Itinerari Personal per a l’Ocupabilitat
 Desenvolupament d’habilitats professionals reals: treball en equip, organització, responsabilitat i resolució de problemes.
 #### Mòduls optatius I i II (hardware / web)
-Hardware: Manteniment i optimització avançada dels equips.
+Hardware: Manteniment dels equips.
 Web: Creació d'una demo web.
