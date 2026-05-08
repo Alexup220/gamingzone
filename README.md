@@ -15,11 +15,11 @@ Dissenyar, planificar i implementar la infraestructura informàtica necessària 
 ## **Abast del projecte**
 ### Inclou:
 1.  La configuració de la xarxa local (LAN).
-2.  La configuració dels equips dels tècnics.
-3.  La configuració dels equips de competició i altres dispositius auxiliars.
-4.  La configuració dels sistemes audiovisuals destinats al públic i a la retransmissió.
-5.  Configuració d'un sistema de monitoratge de xarxa.
-7.  El disseny d’un pla de seguretat informàtica que asseguri el correcte manteniment de la xarxa i dels sistemes.
+2.  La configuració d'un entorn al Cloud.
+3.  La configuració dels equips dels tècnics.
+4.  La configuració dels equips de competició i altres dispositius auxiliars.
+5.  La configuració dels sistemes audiovisuals destinats al públic i a la retransmissió.
+6.  Configuració d'un sistema de monitoratge de xarxa.
 ### No inclou:
 1.  La gestió del contingut audiovisual o la producció professional de l’streaming.
 2.  La contractació de personal extern o la decoració de l’espai.
@@ -27,9 +27,9 @@ Dissenyar, planificar i implementar la infraestructura informàtica necessària 
 <br><br>
 ## **Fases del projecte**
 ### **Fase 1: Infraestructura**
-En aquesta primera fase del projecte s’ha de transformar un espai que actualment no disposa de cap infraestructura informàtica en un entorn preparat per suportar equips de competició i sistemes de comunicació moderna. Es defineix les zones destinades als jugadors, al públic i al personal tècnic. Paral·lelament, s’estableix tota la infraestructura: es despleguen switches i punts d’accés per constituir una xarxa LAN estable i de baixa latència, i es defineixen les connexions a internet d’alta velocitat requerides per un torneig professional. Durant aquesta fase també es preparen les posicions de competició, configurant equips, pantalles i perifèrics, i es realitza la configuració dels sistemes audiovisuals principals que permeten la visualització de les partides a l’estadi. A més, es comencen a implementar mesures bàsiques de seguretat tant de la xarxa com de l’espai físic per garantir el correcte funcionament dels sistemes.
+En aquesta primera fase del projecte s’ha de transformar un espai que actualment no disposa de cap infraestructura informàtica en un entorn preparat per suportar equips de competició i sistemes de comunicació moderna. Es defineix les zones destinades als jugadors, al públic i al personal tècnic. Paral·lelament, s’estableix tota la infraestructura: es despleguen switches i punts d’accés per constituir una xarxa LAN estable i de baixa latència, i es defineixen les connexions a internet d’alta velocitat requerides per un torneig professional. Durant aquesta fase també es preparen les posicions de competició, configurant equips, pantalles i perifèrics, i es realitza la configuració dels sistemes audiovisuals principals que permeten la visualització de les partides a l’estadi.
 ### **Fase 2: Implementació**
-La segona fase del projecte se centra a portar l’estadi a un nivell professional. S’implementen serveis de xarxa avançats amb servidors que gestionen usuaris, permisos i fitxers, i sistemes de monitoratge per controlar equips i connexions durant el torneig. També s’aplica un pla de seguretat informàtica amb polítiques d’accés, segments de xarxa i protocols d’actuació davant incidències. Paral·lelament, s’acaben d’integrar els sistemes audiovisuals per garantir una retransmissió estable i de qualitat. 
+La segona fase del projecte se centra a portar l’estadi a un nivell professional. S’implementen serveis de xarxa avançats amb servidors que gestionen usuaris, permisos i fitxers, i sistemes de monitoratge per controlar equips i connexions. Paral·lelament, s’acaben d’integrar els sistemes audiovisuals per garantir una retransmissió estable i de qualitat. 
 <br><br>
 ## Relació amb els mòduls de SMX
 #### MP01 – Equips informàtics
