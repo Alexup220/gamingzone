@@ -1,0 +1,31 @@
+dn: uid=responsable-trans,ou=Competicio,dc=gamingzone,dc=cat
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: responsable-trans
+cn: responsable-trans
+givenName: responsable-trans
+sn: El Trans
+userPassword: {SSHA}MTqHw4z+DpjynTjCN1onDgXoNOYEsi0m
+uidNumber: 10000
+gidNumber: 10000
+mail: responsable-trans@gamingzone.cat
+gecos: responsable-trans El Trans
+loginShell: /bin/bash
+homeDirectory: /home/responsable-trans
+
+dn: uid=responsable-segur,ou=Seguretat,dc=gamingzone,dc=cat
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: responsable-segur
+cn: responsable-segur
+givenName: responsable-segur
+sn: Segur
+userPassword: {SSHA}wbptTcA5ltda+IWoa5maMWi3bZiz8cn
+uidNumber: 10001
+gidNumber: 10001
+mail: responsable-segur@gamingzone.cat
+gecos: responsable-segur Segur
+loginShell: /bin/bash
+homeDirectory: /home/responsable-segur

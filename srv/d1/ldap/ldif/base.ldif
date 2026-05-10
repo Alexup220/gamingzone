@@ -1,0 +1,7 @@
+dn: ou=Seguretat,ou=Empresa,dc=gamingzone,dc=cat
+objectClass: organizationalUnit
+ou: Seguretat
+
+dn: ou=Competicio,ou=Empresa,dc=gamingzone,dc=cat
+objectClass: organizationalUnit
+ou: Competicio
