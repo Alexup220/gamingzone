@@ -1,0 +1,332 @@
+    1  sudo nano /etc/host
+    2  sudo nano /etc/hosts
+    3  su
+    4  sudo nano /etc/hosts
+    5  cat /etc/group
+    6  cat /etc/group | grep sudo
+    7  sudo visudo
+    8  visudo
+    9  exit
+   10  sudo visudo
+   11  su
+   12  ls
+   13  mount -a
+   14  ls
+   15  sudo nano /etc/hosts
+   16  cat /etc/hots
+   17  cat /etc/hosts
+   18  sudo apt update
+   19  sudo apt install slapd ldap-utils
+   20  sudo dpkg-reconfigure -plow slapd
+   21  slapcat
+   22  sudo slapcat
+   23  ldapsearch
+   24  ldapsearch administrador
+   25  sudo slapcat
+   26  slapsearch admin
+   27  ldapsearch admin
+   28  sudo dpkg-reconfigure -plow slapd
+   29  sudo ldapsearch admin
+   30  sudo reboot
+   31  cat base.ldif 
+   32  ldapadd -x -D cn=admin,dc=gamingzone,dc=cat -W -f base.ldif
+   33  slapcat
+   34  sudo slapcat
+   35  nano base.ldif 
+   36  ldapadd -x -D cn=admin,dc=gamingzone,dc=cat -W -f base.ldif
+   37  ldapadd -x -D cn=admin,dc=gamingzone,dc=cat -W -f users.ldif 
+   38  cat users.ldif 
+   39  sudo slapcat
+   40  su responsable-segur
+   41  su responsable-segur@gamingzone.cat
+   42  ls
+   43  su segur@gamingzone.cat
+   44  su responsable-segur@gamginzone.cat
+   45  getent passwd responsable-segur@gamingzone.cat
+   46  su responsable-segur@gamgingzone.cat
+   47  id responsable-segur@gamingzone.cat
+   48  id responsable-segur
+   49  id responsable-trans
+   50  id responsable-trans@gamingzone.cat
+   51  sudo slapcat
+   52  su responsable-segur
+   53  su Segur
+   54  id Segur
+   55  id responsable-segur
+   56  getent passwd
+   57  sudo reboot
+   58  getent passwd responsable-segur
+   59  id responsable-segur
+   60  sudo slapcat
+   61  sudo apt install sssd nss-pam-ldapd oddjob-mkhomedir
+   62  sudo apt update
+   63  sudo apt install sssd oddjob-mkhomedir
+   64  sudo systemctl enable sssd
+   65  getent passwd responsable-segur
+   66  getent passwd Segur
+   67  sudo systemctl status sssd
+   68  sudo systemctl enable --now sssd
+   69  sudo systemctl status sssd
+   70  sydi reboot
+   71  sudo reboot
+   72  id responsable-segur
+   73  id Segur
+   74  sudo systemctl status sssd
+   75  sudo nano /etc/sssd/sssd.conf
+   76  sudo apt install sssd-ldap
+   77  authselect select sssd with-mkhomedir
+   78  sudo authselect select sssd with-mkhomedir
+   79  sudo systemctl status ldap
+   80  sudo systemctl status slapd
+   81  sudo apt install apache2 php php-cgi libapache2-mod-php php-mbstring php-common php-pear
+   82  a2enconf php8.4-cgi
+   83  sudo a2enconf php8.4-cgi
+   84  systemctl reload apache2
+   85  sudo apt install ldap-account-manager
+   86  nano /etc/apache2/conf-enabled/ldap-account-manager.conf 
+   87  sudo nano /etc/apache2/conf-enabled/ldap-account-manager.conf 
+   88  sudo systemctl restart apache2
+   89  sudo apt install bind9
+   90  sudo systemctl enable bind9
+   91  sudo systemctl status bind9
+   92  sudo apt install mysql
+   93  sudo apt install mysql-server
+   94  sudo apt update
+   95  sudo apt upgrade
+   96  sudo apt install mysql-server
+   97  sudo apt install mariadb-server
+   98  sudo mysql -u root -p
+   99  sudo mysql -u administrador -p
+  100  sudo systemctl status mariadb
+  101  sudo apt install phpmyadmin php-mysql php-mbstring php-zip php-gd php-json php-curl
+  102  sudo apt install phpmyadmin php-josn php-mysql
+  103  sudo apt install phpmyadmin php-json php-mysql
+  104  sudo phpenmod mbstring
+  105  sudo systemctl restart apache2
+  106  sudo systemctl status mariadb
+  107  sudo systemctl restart mariadb
+  108  sudo mysql -u root -p
+  109  poweroff
+  110  sudo poweroff
+  111  sudo apt update
+  112  sudo apt dist-upgrade
+  113  wget https://github.com/nagios-plugins/nagios-plugins/releases/download/release-2.4.0/nagios-plugins-2.4.0.tar.gz
+  114  sudo apt install gcc make libssl-dev
+  115  tar xf nagios-plugins-2.4.0.tar.gz 
+  116  cd nagios-plugins-2.4.0/
+  117  ./configure
+  118  make
+  119  make install
+  120  ls
+  121  sudo make
+  122  ls
+  123  cd plugins
+  124  ls
+  125  cd ..
+  126  ls
+  127  cd plugins-root/
+  128  ls
+  129  nano Makefile
+  130  cd
+  131  cd nagios-plugins-2.4.0/
+  132  make
+  133  make CFLAGS="-Wno-error=implicit-function-declaration"
+  134  make install
+  135  sudo make install
+  136  sudo apt install libnagios-object-perl nagios-images nagios-nrpe-server nagios4, nagios4-common
+  137  sudo apt update
+  138  sudo apt install libnagios-object-perl
+  139  sudo apt install nagios-images
+  140  sudo apt install nagios-nrpe-plugin
+  141  sudo apt install nagios-plugins
+  142  sudo apt install nagios4
+  143  sudo apt install nagios4-common
+  144  sudo apt install nagios4-core
+  145  sudo apt install nagios-plugnis-basic
+  146  sudo apt install nagios-plugins-basic
+  147  sudo apt install nagios-snmp-plugins
+  148  sudo apt install nagios4-cgi
+  149  sudo apt install nagios-plugins-standard
+  150  sudo nagios -v /etc/nagios4/nagios.cfg 
+  151  nagios -v /etc/nagios4/nagios.cfg 
+  152  sudo nagios4 -v /etc/nagios4/nagios.cfg 
+  153  a2enmod cgi
+  154  sudo a2enmod cgi
+  155  sudo systemctl enable nagios4
+  156  sudo systemctl restart apache2
+  157  sudo systemctl status nagios4
+  158  sudo poweroff
+  159  ip a
+  160  sudo apt install libnss-ldapd libpam-ldap ldap-utils nscd libpam-mklocaluser
+  161  sudo nano /etc/nsswitch.conf 
+  162  dpkg-reconfigure libnss-ldapd
+  163  sudo dpkg-reconfigure libnss-ldapd
+  164  getent passwd
+  165  sudo slapcat
+  166  sudo systemctl restart nscd
+  167  getent passwd
+  168  sudo dpkg-reconfigure libpam-ldap
+  169  sudo apt install libpam-ldap
+  170  sudo dpkg-reconfigure libpam-ldapd
+  171  sudo dpkg-reconfigure ldap-utils
+  172  sudo dpkg-reconfigure nscd
+  173  sudo dpkg-reconfigure libnss-dapd
+  174  sudo dpkg-reconfigure libnss-ldapd
+  175  sudo apt install libnss-ldapd
+  176  sudo dpkg-reconfigure ldap-auth-config
+  177  sudo nano /etc/nslcd.conf 
+  178  sudo systemctl restart nslcd
+  179  sudo systemctl restart nscd
+  180  getent passwd
+  181  sudo nano /etc/nslcd.conf 
+  182  sudo systemctl restart nslcd
+  183  sudo systemctl restart nscd
+  184  getent passwd
+  185  lsappassdw
+  186  lsappasswd
+  187  slappasswd
+  188  sudo slappasswd
+  189  sudo apt install bind-dyndb-ldap
+  190  sudo apt install bind9-dyndb-ldap
+  191  bind9 --version
+  192  sudo apt bind9 --version
+  193  sudo apt install bind9utils
+  194  sudo apt install bind9-dnsutils
+  195  sudo apt install bind-dyndb-ldap
+  196  sudo apt install bind9-dyndb-ldap
+  197  apt search dyndb
+  198  apt-cache search bind ldap
+  199  named -V | grep dlz
+  200  sudo named -V | grep dlz
+  201  sudo apt install build-essential libldap2-dev libssl-dev \ librkb5-dev libjson-c-dev libuv1-dev libcap-dev
+  202  sudo apt install build-essential libldap2-dev libssl-dev \ libkrb5-dev libjson-c-dev libuv1-dev libcap-dev
+  203  logger -n 192.168.1.20 -P 5514 "Prova de log des de D1"
+  204  sudo ldapsearch -x -H ldap://localhost -b "dc=gamingzone,dc=cat" "(uid=admin)"
+  205  sudo ldapsearch 
+  206  sudo ldapsearch ldapi://localhost
+  207  cd /etc/apache2/sites-enabled/
+  208  ls
+  209  cd
+  210  cd /etc/ldap-account-manager/
+  211  ls
+  212  cat apache.conf 
+  213  cd /etc/bind/
+  214  ls
+  215  sudo nano named.conf.local 
+  216  ld
+  217  ls -a
+  218  ls -l
+  219  sudo nano named.conf
+  220  sudo nano named.conf.local 
+  221  sudo checkconf /etc/bind/named.conf.local 
+  222  sudo check-conf /etc/bind/named.conf.local 
+  223  sudo named-checkconf /etc/bind/named.conf.local 
+  224  sudo nano db.gamingzone.cat
+  225  sudo named-checkzone gamingzone.cat db.gamingzone.cat 
+  226  sudo nano db.gamingzone.cat
+  227  sudo named-checkzone gamingzone.cat db.gamingzone.cat 
+  228  sudo systemctl restart bind
+  229  sudo systemctl restart bind9
+  230  sudo systemctl status bind9
+  231  dig D2
+  232  dig D2.gamingzone.cat
+  233  dig rtmp.gamingzone.cat
+  234  dig elk.gamingzone.cat
+  235  dig kibana.gamingzone.cat
+  236  dig ldap.gamingzone.cat
+  237  dig ldap
+  238  dig bind.gamingzone.cat
+  239  sudo nano db.gamingzone.cat
+  240  dig lam.gamingzone.cat
+  241  dig nagios.gamingzone.cat
+  242  dig phpmyadmin.gamingzone.cat
+  243  sudo cat db.gamingzone.cat 
+  244  sudo nano db.192.168.1
+  245  cat db.gamingzone.cat 
+  246  nano named.conf.local
+  247  sudo nano named.conf.local
+  248  sudo named-checkconf
+  249  sudo named-checkconf named.conf.local
+  250  sudo named-checkzone 1.168.192 db.192.168.1 
+  251  named-checkzone 1.168.192.in-addr db.192.168.1
+  252  nano named.conf.local 
+  253  sudo nano db.192.168.1 
+  254  named-checkzone 1.168.192.in-addr db.192.168.1
+  255  sudo named-checkzone 1.168.192.in-addr db.192.168.1
+  256  named-checkzone 1.168.192.in-addr db.192.168.1
+  257  sudo nano db.192.168.1 
+  258  named-checkzone 1.168.192.in-addr db.192.168.1
+  259  sudo nano db.192.168.1 
+  260  named-checkzone 1.168.192.in-addr db.192.168.1
+  261  sudo nano db.gamingzone.cat 
+  262  cat db.gamingzone.cat 
+  263  cat db.1
+  264  cat db.192.168.1 
+  265  nslookup
+  266  nslookup D1.gamingzone.cat
+  267  nslookup D2.gamingzone.cat
+  268  nslookup Pi.gamingzone.cat
+  269  nslookup W1.gamingzone.cat
+  270  nslookup ldap.gamingzone.cat
+  271  nslookup kibana.gamingzone.cat
+  272  nslookup lam.gamingzone.cat
+  273  nslookup nagios.gamingzone.cat
+  274  nslookup rtmp.gamingzone.cat
+  275  nslookup phpmyadmin.gamingzone.cat
+  276  nslookup rtmp.gamingzone.cat
+  277  nslookup 192.168.1.10
+  278  nslookup 192.168.1.20
+  279  sudo named-checkzone 192.168.1-in-addr-arpa db.192.168.1 
+  280  nslookup 192.168.1.
+  281  nslookup 192.168.1.2
+  282  nslookup 192.168.1.20
+  283  nslookup 192.168.1.D2
+  284  mysql -u root -p
+  285  mysql -u admin -p
+  286  mysql -u root -p
+  287  sudo mariadb
+  288  cd
+  289  sudo nano /etc/rsyslog.d/50-slapd.conf
+  290  systemctl status rsyslog
+  291  systemctl status syslog
+  292  apt install rsyslog
+  293  sudo systemctl status rsyslog
+  294  sudo systemctl status syslog
+  295  sudo apt install rsyslog
+  296  sudo nano /etc/rsyslog.d/50-sladp.conf
+  297  journalctl -u slapd
+  298  journalctl -u slapd -f
+  299  man slapd.conf
+  300  man ldap.cofn
+  301  man ldap.conf
+  302  ldapmodify -Y EXTERNAL -H ldapi:/// <<EOF
+  303  dn: cn=config
+  304  changetype: modify
+  305  replace: olcLogLevel
+  306  olcLogLevel: stats
+  307  EOF
+  308  sudo ldapmodify -Y EXTERNAL -H ldapi:/// <<EOF
+  309  dn: cn=config
+  310  changetype: modify
+  311  replace: olcLogLevel
+  312  olcLogLevel: stats
+  313  EOF
+  314  sudo systemctl restart slapd
+  315  journalctl -u slapd -f
+  316  journalctl -u slapd 
+  317  sudo systemctl status sladp
+  318  sudo systemctl status slapd
+  319  journalctl slapd
+  320  journalctl -h
+  321  journalctl -t slapd
+  322  journalctl -u slapd
+  323  journalctl -u ldap
+  324  journalctl -u ldap -f
+  325  sudo usermod -ag administrador systemd-journal
+  326  sudo usermod -ag systemd-journal administrador
+  327  sudo usermod -aG systemd-journal administrador
+  328  journalctl -u ldap -f
+  329  reboot
+  330  sudo reboot
+  331  ldapsearch -x -H ldap://localhost -b "dc=gamingzone,dc=cat" "(uid=admin)"
+  332  history > conf_D1.txt
