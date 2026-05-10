@@ -59,3 +59,9 @@ Desenvolupament d’habilitats professionals reals: treball en equip, organitzac
 #### Mòduls optatius I i II (hardware / web)
 Hardware: Manteniment dels equips.
 Web: Creació d'una demo web.
+<br><br>
+
+## **Equip de Gaming Zone**
+
+[![Contribs](https://contrib.rocks/image?repo=Alexup220/gamingzone)](https://github.com/Alexup220/gamingzone/graphs/contributors)
+
