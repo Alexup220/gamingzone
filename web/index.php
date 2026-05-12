@@ -32,7 +32,6 @@ include 'includes/header.html';
 ?>
 
 <div class="hero-banner">
-  <div class="date-badge">🎮 27 – 28 de Maig 2026 🎮</div>
   <h1>GAMING <span class="accent">ZONE</span><br>TOURNAMENT</h1>
   <p class="subtitle">El torneig de videojocs de la nostra xarxa local. Competeix, guanya i porta el teu equip a la glòria.</p>
   <a href="horaris.php" class="btn btn-primary">Veure Horaris</a>
