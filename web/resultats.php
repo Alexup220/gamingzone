@@ -72,9 +72,9 @@ if ($totalRank > 0) {
     echo '<div class="section-title">Ranquing</div>';
     $posicio = 1;
     while ($jug = mysqli_fetch_row($resultat)) {
-        $medalla = ($posicio == 1 ? '🥇' : ($posicio == 2 ? '🥈' : ($posicio == 3 ? '🥉' : $posicio . '.')));
+        $medalla = $posicio . '.';
         echo '<div class="ranking-item"><p>' . $medalla . ' ' . $jug[0] . ' - ' . $jug[1] . ' victories</p></div>';
-        $posicio = $posicio + 1;
+        $posicio++;
     }
     echo '</div>';
 }
