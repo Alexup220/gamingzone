@@ -1,4 +1,4 @@
-# **Alex Urra i Darek Valencia    2SMXB**
+# **Gaming Zone**
 ## **Context i situació inicial**
 Una empresa especialitzada en serveis informàtics ha rebut l’encàrrec de muntar tota la infraestructura tècnica d’un estadi destinat a fer tornejos de videojocs com Valorant, Counter-Strike 2 o Rocket League.
 L’objectiu és crear un espai professional i competitiu que garanteixi el màxim rendiment per als jugadors i una experiència de qualitat per al públic assistent.
